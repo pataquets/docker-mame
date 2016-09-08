@@ -1,7 +1,7 @@
-FROM pataquets/ubuntu:trusty
+FROM pataquets/ubuntu:xenial
 
 RUN \
-  echo "deb http://archive.ubuntu.com/ubuntu trusty multiverse" | \
+  echo "deb http://archive.ubuntu.com/ubuntu xenial multiverse" | \
     tee /etc/apt/sources.list.d/multiverse.list && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive \
