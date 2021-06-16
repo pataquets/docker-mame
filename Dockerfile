@@ -6,6 +6,8 @@ RUN \
     apt-get install -y \
       libgl1-mesa-glx \
       mame \
+      mame-extra \
+      mame-tools \
       mesa-utils \
   && \
   apt-get clean && \
